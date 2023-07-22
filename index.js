@@ -11,48 +11,48 @@ inquirer
         {
             type: 'input',
             message: 'What is your title of your Project?',
-            name: 'Title',
+            name: 'title',
         },
         {
             type: 'input',
             message: 'What is the description of your Project?',
-            name: 'Description',
+            name: 'description',
         },
         {
             type: 'input',
             message: 'What are the Installation instructions for your application?',
-            name: 'Installation',
+            name: 'installation',
         },
         {
             type: 'input',
             message: 'How should a user use your application?',
-            name: 'Usage',
+            name: 'usage',
         },
         {
             type: 'rawlist',
             message: 'What License do you have for your project',
             choices: ['MIT', 'Apache_2.0', 'MPL_2.0', 'ISC'],
-            name: 'License',
+            name: 'license',
         },
         {
             type: 'input',
             message: 'What are the guidelines for Contributing to your project?',
-            name: 'Contributing',
+            name: 'contributions',
         },
         {
             type: 'input',
             message: 'What instructions do you have for testing?',
-            name: 'Tests',
+            name: 'testing',
         },
         {
             type: 'input',
             message: 'What is your Github username?',
-            name: 'Github',
+            name: 'github',
         },
         {
             type: 'input',
             message: 'What is your email?',
-            name: 'Questions',
+            name: 'contact',
         },
     ])
     .then((response) => 
