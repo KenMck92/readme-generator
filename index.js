@@ -10,47 +10,48 @@ inquirer
     .prompt([
         {
             type: 'input',
-            message: 'What is your title?',
+            message: 'What is your title of your Project?',
             name: 'Title',
         },
         {
             type: 'input',
-            message: 'What is the description of your Readme?',
+            message: 'What is the description of your Project?',
             name: 'Description',
         },
         {
             type: 'input',
-            message: 'Table of Contents?',
-            name: 'Table of Contents',
-        },
-        {
-            type: 'input',
-            message: 'Installation',
+            message: 'What are the Installation instructions for your application?',
             name: 'Installation',
         },
         {
             type: 'input',
-            message: 'Usage',
+            message: 'How should a user use your application?',
             name: 'Usage',
         },
         {
-            type: 'input',
-            message: 'License',
+            type: 'rawlist',
+            message: 'What License do you have for your project',
+            choices: ['MIT', 'Apache_2.0', 'MPL_2.0', 'ISC'],
             name: 'License',
         },
         {
             type: 'input',
-            message: 'Contributing',
+            message: 'What are the guidelines for Contributing to your project?',
             name: 'Contributing',
         },
         {
             type: 'input',
-            message: 'Test',
+            message: 'What instructions do you have for testing?',
             name: 'Tests',
         },
         {
             type: 'input',
-            message: 'Questions',
+            message: 'What is your Github username?',
+            name: 'Github',
+        },
+        {
+            type: 'input',
+            message: 'What is your email?',
             name: 'Questions',
         },
     ])
