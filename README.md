@@ -1,36 +1,7 @@
-# README Generator
-  [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-  ## Description
-Created a README using node.
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [How To Contribute](#contributions)
-  - [Tests](#testing)
-  ## Installation
+# README-Generator
 
-N/A
+## Description
+    Included the packages needed to run the readme-generator. Created an array of questions for the user using inquirer.prompt to show questions in the terminal when node is ran. Created a writeTOFile to write answers to questions on a generated README file. In the generateMarkdown file I created a function to return the data from my index.js file to my markdown file. 
 
-  ## Usage
-
-N/A
-
-  ## Credits
-
-undefined
-
-  ## License
-
-This project is licensed under MIT.
-  ## How To Contribute
-
-N/A
-
-  ## Tests
-
-N/A
-  ## Question
- If you have any questions, please reach out to my github account: [Github](https://github.com/kenmck92), or my email: [ken.mckeller92@gmail.com](ken.mckeller92@gmail.com)
-
+## Usage
+(https://drive.google.com/file/d/1LHsxKnbsMbCyDAMWzEt63IlCEdmaNdaK/view)
