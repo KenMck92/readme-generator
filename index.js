@@ -61,7 +61,7 @@ function questions() {
 };
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    fs.writeFile('README.md', `${data}\n`, (err) =>
+    fs.writeFile('GenReadME.md', `${data}\n`, (err) =>
         err ? console.log(err) : console.log('Success!'))
 }
 

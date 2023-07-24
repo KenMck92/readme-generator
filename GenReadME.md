@@ -10,22 +10,22 @@ Created README using node.
   - [Tests](#testing)
   ## Installation
 
- N/A
+N/A
 
   ## Usage
 
- N/A
+N/A
 
   ## License
 
 This project is licensed under MIT.
   ## How To Contribute
 
- N/A
+N/A
 
   ## Tests
 
- N/A
+N/A
   ## Question
  If you have any questions, please reach out to my github account: [Github](https://github.com/kenmck92), or my email: [ken.mckeller92@gmail.com](ken.mckeller92@gmail.com)
 
